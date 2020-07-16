@@ -31,19 +31,19 @@ public class calculadora {
 
         switch (operador){
             case 1:
-                System.out.println("O resultado da soma entre " + num1 + " e "
+                System.out.println("\nO resultado da soma entre " + num1 + " e "
                         + num2 + " é de: " + calculo.soma(num1, num2));
                 break;
             case 2:
-                System.out.println("O resultado da subtração entre " + num1 + " e "
+                System.out.println("\nO resultado da subtração entre " + num1 + " e "
                         + num2 + " é de: " + calculo.subtracao(num1, num2));
                 break;
             case 3:
-                System.out.println("O resultado da multiplicação entre " + num1 + " e "
+                System.out.println("\nO resultado da multiplicação entre " + num1 + " e "
                         + num2 + " é de: " + calculo.multiplicacao(num1, num2));
                 break;
             case 4:
-                System.out.println("O resultado da divisão entre " + num1 + " e "
+                System.out.println("\nO resultado da divisão entre " + num1 + " e "
                         + num2 + " é de: " + calculo.divisao(num1, num2));
                 break;
         }
